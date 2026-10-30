@@ -1,0 +1,22 @@
+"""Default paths and reconstruction parameters."""
+from pathlib import Path
+
+STORAGE_ROOT = Path("runs")
+DATA_ROOT = STORAGE_ROOT / "data"
+GRAPH_ROOT = DATA_ROOT / "base_graphs"
+VARIANT_GRAPH_ROOT = DATA_ROOT / "variant_graphs"
+OUTPUT_ROOT = STORAGE_ROOT / "outputs"
+DATA_QUALITY_ROOT = OUTPUT_ROOT / "data_quality"
+SPLIT_MANIFEST = STORAGE_ROOT / "split.json"
+OR_RELATIONSHIP = Path("models/common_orientation_relationship.json")
+CHECKPOINT_ROOT = STORAGE_ROOT / "checkpoints"
+LOG_ROOT = STORAGE_ROOT / "logs"
+ALPHA_SEGMENTATION_DEGREES = 3.0
+GAMMA_SEGMENTATION_DEGREES = 7.5
+MIN_GRAIN_PIXELS = 2
+MIN_PARENT_GRAIN_PIXELS = 50
+MIN_PARENT_COVERAGE = 0.90
+MIN_PARENT_PURITY = 0.95
+RANDOM_SEED = 42
+PHYSICS_BOUNDARY_DEGREES = 3.5
+PHYSICS_PROBABILITY_SCALE_DEGREES = 1.0

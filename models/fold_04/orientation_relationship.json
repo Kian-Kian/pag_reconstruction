@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "matrix_convention": "sample-to-crystal orientations; child = p2c @ parent",
+  "selected_initial_relationship": "ks",
+  "fit_pairs": 30000,
+  "fit_seed": 46,
+  "selected_fitted_matrix": [
+    [
+      0.7197703123092651,
+      -0.6921448111534119,
+      -0.05353715643286705
+    ],
+    [
+      0.6800039410591125,
+      0.7184619903564453,
+      -0.1463111788034439
+    ],
+    [
+      0.13973292708396912,
+      0.06890496611595154,
+      0.9877888560295105
+    ]
+  ]
+}

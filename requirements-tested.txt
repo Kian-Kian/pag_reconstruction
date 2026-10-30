@@ -1,0 +1,5 @@
+# Versions used for local CPU verification with Python 3.12.0.
+numpy==2.1.2
+scipy==1.15.3
+torch==2.7.0
+pytest==8.4.2

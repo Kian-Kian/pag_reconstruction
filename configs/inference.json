@@ -1,0 +1,19 @@
+{
+  "alpha_segmentation_degrees": 3.0,
+  "minimum_grain_pixels": 2,
+  "candidate_tolerances_degrees": [1.0, 2.5, 5.0],
+  "candidate_temperature_degrees": 2.5,
+  "physics_angle_degrees": 3.5,
+  "physics_scale_degrees": 1.0,
+  "fold_aggregation": "mean probability within each model family",
+  "weight_mlp": 0.4,
+  "weight_gnn2": 0.6,
+  "gaec_same_parent_neutral_probability": 0.4,
+  "gaec_boundary_neutral_probability": 0.6,
+  "gaec_probability_clip": 0.00001,
+  "gaec_maximum_region_fraction": 0.8,
+  "gaec_minimum_region_pixels": 0,
+  "orientation_huber_delta_degrees": 5.0,
+  "orientation_maximum_iterations": 30,
+  "orientation_convergence_degrees": 0.0001
+}
